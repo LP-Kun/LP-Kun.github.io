@@ -4340,19 +4340,20 @@
 			height: 100%;
 			border-bottom-left-radius: 5px;
 			border-bottom-right-radius: 5px;
-			background: linear-gradient(to top, rgb(150, 150, 240), rgb(248, 234, 234), rgb(248, 234, 234));
+			background: linear-gradient(to top, rgb(38, 39, 54), rgb(23, 23, 31));
 			animation: animate 5s linear infinite;
 		}
+		
 		@keyframes animate{
 
 			0%, 100%{
-				filter: hue-rotate(0deg);
+				filter: saturate(100%);
 			}
 			50%{
-				filter: hue-rotate(360deg);
+				filter: saturate(0%);
 			}
 		}
-
+		/*
 		#progressbar:before{
 			content: '';
 			position: absolute;
@@ -4378,7 +4379,7 @@
 			background: linear-gradient(to top, rgb(150, 150, 240), rgb(248, 234, 234), rgb(248, 234, 234));
 			
 			
-		}
+		}*/
 		
 
 		
