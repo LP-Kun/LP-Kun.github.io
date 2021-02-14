@@ -4341,18 +4341,10 @@
 			border-bottom-left-radius: 5px;
 			border-bottom-right-radius: 5px;
 			background: linear-gradient(to top, rgb(38, 39, 54), rgb(23, 23, 31));
-			animation: animate 5s linear infinite;
+			
 		}
 		
-		@keyframes animate{
-
-			0%, 100%{
-				filter: saturate(100%);
-			}
-			50%{
-				filter: saturate(0%);
-			}
-		}
+		
 		/*
 		#progressbar:before{
 			content: '';
