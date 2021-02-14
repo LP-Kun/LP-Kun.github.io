@@ -1562,7 +1562,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: #0E1015;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1623,7 +1623,7 @@
 		}
 
 	body {
-		background-color: #fff;
+		background-color: #0E1015;
 		color: #444;
 	}
 
@@ -2717,7 +2717,7 @@
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: #f2f2f2;
+				background-color: #0E1015;
 				color: #000 !important;
 			}
 
@@ -2883,7 +2883,7 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #f2f2f2;
+			background-color: #0E1015;
 			color: #a6a6a6;
 		}
 
@@ -2926,7 +2926,7 @@
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
 				background-color: #000;
-				color: #f2f2f2 !important;
+				color: #0E1015 !important;
 			}
 
 				.wrapper.style2 input[type="submit"].alt,
@@ -3138,7 +3138,7 @@
 			.wrapper.style3 input[type="button"],
 			.wrapper.style3 button,
 			.wrapper.style3 .button {
-				background-color: #f2f2f2;
+				background-color: #0E1015;
 				color: #000 !important;
 			}
 
