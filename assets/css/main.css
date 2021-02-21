@@ -4373,6 +4373,57 @@
 			
 			
 		}*/
+
+		.skillbox{
+			box-sizing: border-box;
+			width: 100%;
+			margin:  20px;
+
+		}
+		.skillbox p{
+			margin: 0 0 10px;
+			padding: 0%;
+			letter-spacing: 1px;
+			color:  rgb(73, 85, 112);
+			
+		}
+		.skillbox p:nth-child(2){
+			float: right;
+		}
+		.skillbox p:nth-child(1){
+			text-align: left;
+		}
+		.skill{
+			background: rgb(73, 85, 112);
+			
+			padding: 4px;
+			margin-right: 10%;
+			box-sizing: border-box;
+			border: 1px solid rgb(12,12,17);
+			border-radius: 10px;
+			
+			
+		}
+
+		@keyframes animate{
+			0%, 100%{
+				filter: saturate(0deg);
+				
+			}
+			50%{
+				filter: saturate(10px);
+				
+			}
+		}
+
+		.skill_level{
+			background: rgb(12,12,17);
+			border-radius: 10px;
+			height:8px;
+		}
+
+		
+		
 		
 
 		
