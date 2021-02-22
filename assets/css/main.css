@@ -2680,6 +2680,12 @@
 			width: 60%;
 			/*padding-left: 27rem;*/
 		}
+		.wrapper > .inner3 {
+			
+			margin: 0 auto;
+			width: 90%;
+			/*padding-left: 27rem;*/
+		}
 
 		.wrapper.style1 {
 			background-color: #8a4680;
