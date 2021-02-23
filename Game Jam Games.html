@@ -1,0 +1,165 @@
+
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div id="progressbar"></div>
+		<div id="scrollPath"></div>
+		
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">Portfolio<span></span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Games.html">Games</a></li>
+					<li><a href="Skills.html">Skills</a></li>
+					<li><a href="Projects.html">Coding Adventures</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+					<li><a href="AboutMe.html">About Me</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section class="banner full">
+				<article>
+					<img src="images/wp2757874.gif" alt="" />
+					<div class="inner">
+						<header>
+							<p>“It's Ujjwal Prashar And Welcome To My Portfolio.”</p>
+							<h2><font color = "White">Hello</font></h2>
+						</header>
+					</div>
+				</article>
+			</section>
+
+		<!-- One -->
+		
+			<section id="one" class="wrapper style2">
+				<div class="inner">
+					<div class="grid-style">
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/DraugrImage1.JPG" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>My Game Library</p>
+										<h2>Games</h2>
+									</header>
+									<p> This segment contains all the games that I have been a part of whether they be full-scale games or just game jam titles.
+									</p>
+									<footer class="align-center">
+										<a href="Games.html" class="button alt">VIEW</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+						
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/code.png" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>My Skills Set </p>
+										<h2>Skills</h2>
+									</header>
+									<p>This segment contains information regarding the various skillsets I possess from coding languages to software</p>
+									<footer class="align-center">
+										<a href="Skills.html" class="button alt">VIEW</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					
+					<header class="align-center">
+						<p>My Favourite Quote</p>
+						<h2>"Success Is A Journey Not A Destination."</h2>
+							</header>
+							<header class="align-right"><br> - Arthur Ashe</header>
+							
+					
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper style2">
+				
+				<div class="inner2">
+					
+						<div>
+							
+							<div class="box">
+								<div class="image fit">
+									<img src="images/codingexp.jpg" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>My coding adventures</p>
+										<h2>Coding Exploites</h2>
+									</header>
+									<p> This segment contains information about all the apps and bots I developed.
+									</p>
+									<footer class="align-center">
+										<a href="Qualifications.html" class="button alt">VIEW</a>
+									</footer>
+								</div>
+							</div>
+					</div>
+				</div>
+			</section>
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="https://www.youtube.com/channel/UChZku6Gf9Tr0b6dwYS2SSIA" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Ujjwal Prashar
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+			<script type="text/javascript">
+			let progress = document.getElementById('progressbar');
+			let totalheight = document.body.scrollHeight - window.innerHeight;
+			window.onscroll = function(){
+				let progressheight = (window.pageYOffset / totalheight) * 100;
+				progress.style.height = progressheight + "%";
+			}
+			
+			</script>
+			
+
+	</body>
+</html>
