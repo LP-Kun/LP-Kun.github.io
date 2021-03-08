@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="subpage">
+		<div id="progressbar"></div>
+		<div id="scrollPath"></div>
 
 		<!-- Header -->
 		<header id="header">
@@ -80,6 +82,16 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+			<script type="text/javascript">
+				let progress = document.getElementById('progressbar');
+				let totalheight = document.body.scrollHeight - window.innerHeight;
+				window.onscroll = function () {
+					let progressheight = (window.pageYOffset / totalheight) * 100;
+					progress.style.height = progressheight + "%";
+				}
+
+			</script>
 
 	</body>
 </html>
