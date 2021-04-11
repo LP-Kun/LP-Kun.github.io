@@ -2798,8 +2798,11 @@
 		}
 		.wrapper > .inner2 {
 			
-			margin: 0 auto;
-			width: 50rem;
+			margin: 0% auto;
+			width: 100%;
+			padding-left: 20%;
+			padding-right: 20%;
+			
 			/*padding-left: 27rem;*/
 		}
 		.wrapper > .inner3 {
