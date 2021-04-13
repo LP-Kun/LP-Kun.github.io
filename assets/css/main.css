@@ -1,6 +1,7 @@
 ﻿@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
 
 
 
@@ -4553,6 +4554,8 @@
 			border-radius: 5px;
 			height:15px;
 		}
+
+
 
 		
 
